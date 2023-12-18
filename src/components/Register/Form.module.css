@@ -1,0 +1,46 @@
+
+input {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: rgb(28,28,30);
+    box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw 10px;
+    width: 250px;
+    transition: .4s;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0.5rem auto;
+    align-items: center;
+  }
+input:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+  }
+  
+input:focus {
+    box-shadow: 0 0 0 .15vw skyblue;
+  }
+.super{
+    font-size:45px ;
+    font-weight: 600;
+    color: green;
+    
+}
+.body{
+    background-color: rgb(28, 28, 28);
+    width: 50vw;
+    height: 100vh;    
+    
+}
+.error{
+    color: red;
+}
+p{
+    color: white;
+    margin: 0.3rem;
+}
